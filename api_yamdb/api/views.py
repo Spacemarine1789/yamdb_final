@@ -12,8 +12,8 @@ from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-from reviews.models import Category, Genre, Title, Review, User
 
+from reviews.models import Category, Genre, Title, Review, User
 from .filters import TitleFilter
 from .mixins import CustomViewSet
 from .permissions import IsAdmin, IsAdminOrReadOnly, IsStaffOrAuthorOrReadOnly
