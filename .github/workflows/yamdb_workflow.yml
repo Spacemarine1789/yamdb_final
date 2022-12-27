@@ -22,6 +22,8 @@ jobs:
 
     - name: Test with flake8 and django tests
       run: |
+        pwd
+        ls -a
         python -m flake8
         python manage.py test
 
