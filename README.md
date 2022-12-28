@@ -1,4 +1,4 @@
-https://github.com/Spacemarine1789/yamdb_final/actions/workflows/yamdb_workflow/badge.svg
+![main workflow](https://github.com/Spacemarine1789/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # api_yamdb
 ### Описание
 
@@ -14,6 +14,14 @@ https://github.com/Spacemarine1789/yamdb_final/actions/workflows/yamdb_workflow/
 ### Установка:
 
 1) На вашем компьютере должен быть установлен Docker.
+Если ваша операционная система Windows, вы можете установить докер десктоп, скачав дистрибутив с фоциального сайта:
+```
+https://docs.docker.com/desktop/install/windows-install/
+```
+Подробнее об установке на любую систему можно прочесть на сайте:
+```
+https://docs.docker.com/get-docker/
+```
 2) Клонируйте проект на ваш копьютер. Через терминал это можно сделать следуюшей командой:
 ```
 git clone https://github.com/Spacemarine1789/infra_sp2.git

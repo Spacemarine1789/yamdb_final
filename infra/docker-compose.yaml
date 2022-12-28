@@ -9,7 +9,6 @@ services:
       - ./.env
 
   web:
-    # build: ../api_yamdb
     image: spacemarine1789/yamdb
     restart: always
     volumes:
